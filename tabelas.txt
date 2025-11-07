@@ -1,0 +1,17 @@
+banco ->  projeto_1
+
+clientes -> 
+      CREATE TABLE clientes(
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        cliente VARCHAR(150) NOT NULL,
+        cidade VARCHAR(150),
+        estado VARCHAR(150)
+) 
+
+contatos ->
+      CREATE TABLE contatos(
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        nome VARCHAR(100) NOT NULL,
+        email VARCHAR(100) NOT NULL,
+        mensagem text NOT NULL
+)
